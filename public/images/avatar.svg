@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" fill="none">
+  <!-- Minimalist dark/charcoal background card -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f3f46" />
+      <stop offset="100%" stop-color="#27272a" />
+    </linearGradient>
+    <linearGradient id="circleBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#b0b7c0" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="396" height="396" rx="38" stroke="url(#borderGrad)" stroke-width="2" />
+
+  <!-- Subtle Geometric Frame Rings -->
+  <circle cx="200" cy="200" r="130" stroke="url(#circleBorder)" stroke-width="1.5" opacity="0.4" />
+  <circle cx="200" cy="200" r="105" stroke="#71717a" stroke-width="1" stroke-dasharray="4 6" opacity="0.5" />
+
+  <!-- Monogram Emblem: LI (Lorem Ipsum) -->
+  <g transform="translate(200, 200)" text-anchor="middle" dominant-baseline="central">
+    <text
+      y="4"
+      font-family="'Playfair Display', Cormorant, Georgia, serif"
+      font-size="96"
+      font-weight="500"
+      letter-spacing="-1"
+      fill="#f4f4f5"
+    >
+      LI
+    </text>
+  </g>
+
+  <!-- Subtle corner registration marks -->
+  <path d="M 24 40 L 24 24 L 40 24" stroke="#52525b" stroke-width="1.5" stroke-linecap="square" />
+  <path d="M 376 40 L 376 24 L 360 24" stroke="#52525b" stroke-width="1.5" stroke-linecap="square" />
+  <path d="M 24 360 L 24 376 L 40 376" stroke="#52525b" stroke-width="1.5" stroke-linecap="square" />
+  <path d="M 376 360 L 376 376 L 360 376" stroke="#52525b" stroke-width="1.5" stroke-linecap="square" />
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <defs>
+    <linearGradient id="p2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e5e9" />
+      <stop offset="100%" stop-color="#cbd0d8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background base -->
+  <rect width="800" height="600" fill="url(#p2Bg)" />
+
+  <!-- Center Editorial Card in Neutral Grey -->
+  <rect x="140" y="80" width="520" height="440" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" />
+
+  <!-- Monogram Header -->
+  <circle cx="200" cy="140" r="28" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="200" y="146" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#334155" text-anchor="middle">A</text>
+
+  <text x="245" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#1e293b" letter-spacing="0.5">AURA SYSTEM</text>
+  <text x="245" y="152" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="500" fill="#64748b" letter-spacing="1.5">EDITORIAL IDENTITY SPECIMEN</text>
+
+  <!-- Horizontal divider -->
+  <line x1="170" y1="185" x2="630" y2="185" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <!-- Visual Color Swatches in Grey Palette -->
+  <g transform="translate(170, 215)">
+    <rect x="0" y="0" width="70" height="50" rx="4" fill="#0f172a" />
+    <rect x="80" y="0" width="70" height="50" rx="4" fill="#334155" />
+    <rect x="160" y="0" width="70" height="50" rx="4" fill="#64748b" />
+    <rect x="240" y="0" width="70" height="50" rx="4" fill="#94a3b8" />
+    <rect x="320" y="0" width="70" height="50" rx="4" fill="#cbd5e1" />
+    <rect x="390" y="0" width="70" height="50" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+  </g>
+
+  <!-- Typographic Display Sample -->
+  <g transform="translate(170, 310)">
+    <text x="0" y="24" font-family="'Playfair Display', Georgia, serif" font-size="34" font-style="italic" fill="#1e293b">Form Follows Function</text>
+    <text x="0" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#475569" letter-spacing="0.2">A systematic exploration of negative space, typographic grid, and modern grey values.</text>
+    <text x="0" y="80" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</text>
+  </g>
+
+  <!-- Card Footer Accent -->
+  <line x1="170" y1="455" x2="630" y2="455" stroke="#e2e8f0" stroke-width="1.5" />
+  <text x="170" y="482" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">TYPE SPECIMEN 02</text>
+  <text x="630" y="482" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8" text-anchor="end">500 GSM COTTON</text>
+</svg>

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default fallbacks */
+  --theme-bg: #fafafa;
+  --theme-surface: #ffffff;
+  --theme-surface-subtle: #f4f4f5;
+  --theme-text-primary: #18181b;
+  --theme-text-secondary: #52525b;
+  --theme-text-muted: #a1a1aa;
+  --theme-border: #e4e4e7;
+  --theme-border-subtle: #f4f4f5;
+  --theme-accent: #18181b;
+  --theme-accent-fg: #fafafa;
+  --theme-accent-hover: #27272a;
+  --theme-ring: rgba(24, 24, 27, 0.1);
+  --theme-shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* Theme 1: Minimal White */
+.theme-minimal-white {
+  --theme-bg: #fafafa;
+  --theme-surface: #ffffff;
+  --theme-surface-subtle: #f4f4f5;
+  --theme-text-primary: #111827;
+  --theme-text-secondary: #4b5563;
+  --theme-text-muted: #9ca3af;
+  --theme-border: #e5e7eb;
+  --theme-border-subtle: #f3f4f6;
+  --theme-accent: #111827;
+  --theme-accent-fg: #ffffff;
+  --theme-accent-hover: #1f2937;
+  --theme-ring: rgba(17, 24, 39, 0.12);
+  --theme-shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* Theme 2: Elegant Black (Dark Mode) */
+.dark,
+.theme-elegant-black {
+  --theme-bg: #09090b;
+  --theme-surface: #141416;
+  --theme-surface-subtle: #1c1c20;
+  --theme-text-primary: #fafafa;
+  --theme-text-secondary: #d4d4d8;
+  --theme-text-muted: #71717a;
+  --theme-border: #27272a;
+  --theme-border-subtle: #1e1e22;
+  --theme-accent: #fafafa;
+  --theme-accent-fg: #09090b;
+  --theme-accent-hover: #e4e4e7;
+  --theme-ring: rgba(250, 250, 250, 0.2);
+  --theme-shadow: rgba(0, 0, 0, 0.5);
+}
+
+/* Theme 3: Warm Beige */
+.theme-warm-beige {
+  --theme-bg: #f5f2ec;
+  --theme-surface: #fcfbf9;
+  --theme-surface-subtle: #ebe6dc;
+  --theme-text-primary: #2d241e;
+  --theme-text-secondary: #5d4e43;
+  --theme-text-muted: #96867a;
+  --theme-border: #e5ded3;
+  --theme-border-subtle: #ede6dc;
+  --theme-accent: #382c23;
+  --theme-accent-fg: #fcfbf9;
+  --theme-accent-hover: #4a3b30;
+  --theme-ring: rgba(56, 44, 35, 0.15);
+  --theme-shadow: rgba(60, 45, 30, 0.06);
+}
+
+/* Theme 4: Soft Sage */
+.theme-soft-sage {
+  --theme-bg: #edf2ee;
+  --theme-surface: #f8faf8;
+  --theme-surface-subtle: #e1e9e2;
+  --theme-text-primary: #19291e;
+  --theme-text-secondary: #415647;
+  --theme-text-muted: #718877;
+  --theme-border: #d0ded2;
+  --theme-border-subtle: #e0ece2;
+  --theme-accent: #263d2e;
+  --theme-accent-fg: #f8faf8;
+  --theme-accent-hover: #324e3c;
+  --theme-ring: rgba(38, 61, 46, 0.15);
+  --theme-shadow: rgba(30, 50, 35, 0.06);
+}
+
+/* Smooth layout and tap highlights */
+html {
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clean scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.35);
+}
